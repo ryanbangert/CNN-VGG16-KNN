@@ -1,7 +1,3 @@
-
-# VGG16 mimarisi kullanılarak derin özellikleri çıkartılması 
-# ve bu özelliklerin SVM,KNN vs. sınıflandırılması  
-
 from keras.applications.vgg16 import VGG16
 from keras.datasets import cifar100
 from keras.models import Model, load_model, Input
